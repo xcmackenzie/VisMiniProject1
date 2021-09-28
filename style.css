@@ -1,0 +1,106 @@
+body {
+    margin: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    margin: 10px;
+}
+
+h2 {
+    background-color: grey;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h3 {
+    background-color: teal;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25;
+    font-weight: bolder;
+    padding: 10px;
+    border-top: 1px solid gray;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.good-container {
+    padding: 10px;
+    margin: 10px;
+}
+
+.bad-container {
+    padding: 10px;
+    margin: 10px
+}
+
+.button-container {
+    padding: 10px;
+    text-align: center;
+}
+
+.redesign-container {
+    padding: 10px;
+    margin: 10px;
+}
+
+.visualization {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 25px;
+    border: 2px solid navy;
+}
+
+.image {
+    border: 2px solid gainsboro
+}
+
+a {
+    padding: 5px;
+    color: teal;
+}
+
+.question {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.list-element {
+    font-weight: bold;
+}
+
+.marks {
+    font-weight: normal;
+}
+
+.channels {
+    font-weight: normal;
+}
+
+.button {
+    margin: 2px;
+    width: 30%;
+    background-color: teal;
+    border: 0.1rem solid teal;
+}
