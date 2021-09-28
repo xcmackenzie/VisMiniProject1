@@ -13,7 +13,9 @@ let marks = [['Length (encodes the percentage of people who spend a certain amou
                 ['',
                     '',
                     ''], 
-                []]
+                ['',
+                    '',
+                    '']]
 let channels = [['Length (encodes percentage), color (encodes the different groups), position (encodes the order of the price ranges from least to most, left to right)',
                      'Size (encodes percentage), color (encodes the different groups)', 
                      'Size (encodes percentage), color (encodes the different groups)'],
