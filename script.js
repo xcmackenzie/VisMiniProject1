@@ -4,27 +4,27 @@ let images = [['redesignimages/1-1.jpg',
                 ['redesignimages/2-1.jpeg',
                     'redesignimages/2-2.jpeg',
                     'redesignimages/2-3.jpeg'],
-                ['',
-                    '',
-                    '']]
+                    ['redesignimages/3-1.jpeg',
+                    'redesignimages/3-2.jpeg',
+                    'redesignimages/3-3.jpeg']]
 let marks = [['Length (encodes the percentage of people who spend a certain amount)', 
                     'Area (encodes the percentage of people who spend a certain amount)', 
                     'Area (encodes the percentage of people who spend a certain amount)', 'Size (encodes percentage), color (encodes the different groups)'],
                 ['Length (encodes the number of calories and the amount of caffeine in a given drink)',
                     'Circle (encodes which drink is being refered to)',
                     'Point (encodes the amount of calories and amount of caffiene in a given drink)'], 
-                ['',
-                    '',
-                    '']]
+                ['Area (encodes how much money is spent or earned)',
+                    'Height/area (encodes how much money is spent or earned)',
+                    'Area (encodes how much money is spent or earned)']]
 let channels = [['Length (encodes percentage), color (encodes the different groups), position (encodes the order of the price ranges from least to most, left to right)',
                      'Size (encodes percentage), color (encodes the different groups)', 
                      'Size (encodes percentage), color (encodes the different groups)'],
                 ['Length (encodes number of calories and amount of caffeine), Color (encodes calories versus caffeine), Position (encodes number of calories from least to most, left to right)',
                     'Position (encodes number of calories and amount of caffeine from least to most, left to right, and down to up)',
                     'Position (encodes number of calories and amount of caffeine from least to most, left to right, and down to up), Color (encodes calories (dark brown) and caffeine (light brown))'],
-                ['',
-                    '',
-                    '']]
+                ['Position and color (encodes different types of transactions)',
+                    'Position and color (encodes different types of transactions)',
+                    'Position and color (encodes different types of transactions and the years the transactions took place)']]
 
 let rationales = [['I think this is my best redesign.  It improves on the original in 2 key ways.  First, the length of each bar is much more obvious than the sizes of the squares that were in the original, making it much easier to tell which price range had the highest percentage.  Second, it shows the bars in order from the lowest average price to the highest.  This helps to clarify the pattern of responses as a bell-curve, providing insight to the relative spending habits between different groups of people and the frequency at which the different spending habits occur.',
                         'Redesigning the chart as a tree map improves on the original by making it much more obvious what the size of each region is.  It also provides a label inside of each region, making it much easier to read since you no longer must rely on a key to tell you what region corresponds to what group.  The only issue that remains is the fact that the order of the price ranges is not clear (e.g.., the $100-$200 range is not placed relative to the about $100 and $200-$300 ranges)',
@@ -33,9 +33,9 @@ let rationales = [['I think this is my best redesign.  It improves on the origin
                 
                     'General Changes: There were some changes I made that are present in all 3 of the redesigns. First, I decluttered the dataset to only include the information relevant to caffeine and coffee, rather than including food items like Big Macs and Fries. This served two purposes: by narrowing the scope, the visualization is more digestible, additionally, it made the visualization more truthful by only listing Starbucks coffee, which is what the data source was pulled from. In order to improve truthfulness, I also added a subheading which specifies that the calories in coffee are based specifically off of Starbucks coffee calories. In addition, the coordinate plan is moved to have a (0,0) point rather than the center being at (150,150) which can be confusing for the viewer. Finally, I removed the coffee and food graphic images because they were repeatedly used to represent different items which made them useless and added to the clutter in the visualization.\n\nRedesign 2 Changes: The original visualization was most similar to this redesign but the advantage of this redesign is it simplifies the specific points in the visualization into circles which makes them more readable. In the original visualization, the labels were hard to read on each data point and the pictures on the graph were confusing because they were repeatedly used to represent different data, this graph eliminates this problem. The visualization is also easy to read and understand.',
                     'General Changes: There were some changes I made that are present in all 3 of the redesigns. First, I decluttered the dataset to only include the information relevant to caffeine and coffee, rather than including food items like Big Macs and Fries. This served two purposes: by narrowing the scope, the visualization is more digestible, additionally, it made the visualization more truthful by only listing Starbucks coffee, which is what the data source was pulled from. In order to improve truthfulness, I also added a subheading which specifies that the calories in coffee are based specifically off of Starbucks coffee calories. In addition, the coordinate plan is moved to have a (0,0) point rather than the center being at (150,150) which can be confusing for the viewer. Finally, I removed the coffee and food graphic images because they were repeatedly used to represent different items which made them useless and added to the clutter in the visualization.\n\nRedesign 3 Changes: This redesign allows for the viewer to compare calories and caffeine in each drink by looking at side by side points. This way of viewing the data is easy to read and highlights the contrast between calories and caffeine in certain drinks, which improves the insightfulness of the visualization. The points are large enough that the viewer can easily see them and the labels for each drink are clear and easy to read.'],
-                ['',
-                    '',
-                    '']]
+                ['General Changes: Changing the title to be more descriptive and tell the reader that this visualization reflects some chosen events in the global economy. Grouping the different types of transactions together so that each type of transaction can be easily identified. Adding descriptions to each category of transaction so that it is clear what they entail. I think my first redesign is my best redesign as it clears up the confusion of the original visualization while still maintaining the beautiful aspect. The grouping of the different types of events makes it easier for readers to identify each type of event and compare events of the same category.',
+                    'General Changes: Changing the title to be more descriptive and tell the reader that this visualization reflects some chosen events in the global economy. Grouping the different types of transactions together so that each type of transaction can be easily identified. Adding descriptions to each category of transaction so that it is clear what they entail. My second redesign utilizes a bar graph to display how much money was spent or within each category and event. This makes it very easy to compare the spending of different categories of events and the events themselves.',
+                    'General Changes: Changing the title to be more descriptive and tell the reader that this visualization reflects some chosen events in the global economy. Grouping the different types of transactions together so that each type of transaction can be easily identified. Adding descriptions to each category of transaction so that it is clear what they entail. My final redesign would require more data from the sources but I wanted to include a design that displays the periods of time that these events took place over. This would help readers understand that some events became costly after years or even decades.']]
 
 // Initialize Redesign Boxes
 
